@@ -16,6 +16,7 @@
     <Folder Include="Views\" />
     <Folder Include="Models\" />
     <Folder Include="Services\" />
+    <Folder Include="Interfaces\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\RestBuilder\RestBuilder.Service.csproj" />
