@@ -114,6 +114,7 @@ namespace RestBuilder.Sample
 
             var result = await Rest.Get<string>(url)
                                    .WithTrackingIndicator("RB1005a")
+                                   .WithExcludeContentLogging(true)
                                    .WithSuccessAction(res =>
                                    { 
                                        var jObject = JObject.Parse(res.ResultContent);

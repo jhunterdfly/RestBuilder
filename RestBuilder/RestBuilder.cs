@@ -101,7 +101,7 @@ namespace RestBuilder.Service
         }
 
         /// <summary>
-        /// Gets a value indicating whether this <see cref="T:Ecolab.CustomerAuditApplication.RestServices.RestBuilder`2"/>
+        /// Gets a value indicating whether this <see cref="RestBuilder"/> />
         /// connectivity precheck.
         /// </summary>
         /// <value><c>true</c> if connectivity precheck; otherwise, <c>false</c>.</value>

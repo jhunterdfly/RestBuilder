@@ -13,11 +13,11 @@ namespace RestBuilder.Service
         public string SendContent { get; set; }
         public TResult ResultObject { get; set; }
         public string ResultContent { get; set; }
-		public Exception ResultException { get; set; }
-		public HttpRequestMessage RequestMessage { get; set; }
-		public HttpResponseMessage ResponseMessage { get; set; }
-		public bool AlertMessageDisplayed { get; set; }
-		public long CallDuration { get; set; }
-		public bool RestCallSucceeded { get; set; } = false;
-	}
+        public Exception ResultException { get; set; }
+        public HttpRequestMessage RequestMessage { get; set; }
+        public HttpResponseMessage ResponseMessage { get; set; }
+        public bool AlertMessageDisplayed { get; set; }
+        public long CallDuration { get; set; }
+        public bool RestCallSucceeded { get; set; } = false;
+    }
 }
